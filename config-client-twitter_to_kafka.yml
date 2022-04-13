@@ -1,6 +1,11 @@
 server:
   port: 8181
 
+offsets:
+  topic:
+    replication:
+      factor: 2
+
 twitter-to-kafka-service:
   twitter-keywords:
     - Java
