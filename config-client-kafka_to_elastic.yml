@@ -1,6 +1,11 @@
 server:
   port: 8182
 
+offsets:
+  topic:
+    replication:
+      factor: 2
+
 #Change these properties if adding the 3rd kafka partition
 #bootstrap-servers: localhost:19092, localhost:29092, localhost:39092
 #concurrency-level: 3
