@@ -30,7 +30,7 @@ spring:
         registration:
           keycloak:
             client-id: 'elastic-query-service'
-            client-secret: '{cipher}eb29524d1a8f0c991808eec623b5053fafa8e8b5e2e22d6b0d7ff19ad8387c1b768c4ae97b08b0dcc82020ae1c65384c34222711d19e5a3225ac86bf27a6dbc8'
+            client-secret: '{cipher}8285f64dc3a63b785392c48a585755529c04f21e9614fa17902da791b065c8e3e3f7f15e8a6300fb643c94ee8556a862a9f8743f9310d78f368c9a4f5c5b6974'
             authorizationGrantType: client_credentials
         provider:
           keycloak:
