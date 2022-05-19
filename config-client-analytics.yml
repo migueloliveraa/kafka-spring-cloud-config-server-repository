@@ -28,7 +28,7 @@ spring:
         order_updates: true
   datasource:
     url: jdbc:postgresql://localhost:5432/postgres?currentSchema=analytics&binaryTransfer=true&reWriteBatchedInserts=true
-    username: admin
+    username: postgres
     password: mine
     driver-class-name: org.postgresql.Driver
     platform: postgres
