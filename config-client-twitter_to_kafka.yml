@@ -12,6 +12,10 @@ twitter-to-kafka-service:
   mock-min-tweet-length: 5
   mock-max-tweet-length: 15
   mock-sleep-ms: 10000
+  enable-v2-tweets: true
+  twitter-v2-base-url: https://api.twitter.com/2/tweets/search/stream?tweet.fields=created_at&expansions=author_id
+  twitter-v2-rules-base-url: https://api.twitter.com/2/tweets/search/stream/rules
+  twitter-v2-bearer-token: AAAAAAAAAAAAAAAAAAAAAJ%2FHaQEAAAAAILSXAoQNYnHLmdWq%2FQptGagtrcc%3DPC3qJnDd1OHZRy5qUFTOMPIZaLZVrfp0rWvvlX4Nq4I0J3WcVO
 
 retry-config:
   initial-interval-ms: 1000
